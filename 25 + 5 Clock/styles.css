@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#length-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.control {
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#time-left {
+    font-size: 3em;
+    margin: 10px;
+}
+
+#controls button {
+    font-size: 1.5em;
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+#beep {
+    display: none;
+}
